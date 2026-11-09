@@ -25,3 +25,4 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           MY_USER_ID: ${{ secrets.MY_USER_ID }}
         run: timeout 50 python main.py || true
+        
